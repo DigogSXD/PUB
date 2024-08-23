@@ -9,13 +9,7 @@
 
 <!-- Título centralizado -->
 <div align="center">
-  <h2>🎯 Objetivo </h2>
-</div> 
-
-
-
-<div align="center">
-  <h2>👨🏻‍💻 PUB </h2>
+  <h2>🎯 Objetivo PUB</h2>
 </div> 
 
 Este projeto oferece as seguintes ideações:
