@@ -34,8 +34,6 @@ Vamos começar clonando um repositório do GitHub em um diretório local atravé
 ```
 git clone https://github.com/DigogSXD/TaskMaster.git
 ```
-  	
-• Certifique-se de ter o Python instalado. O codigo foi desenvolvido em Python.
 
 
 ## Equipe do Projeto
