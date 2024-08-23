@@ -14,7 +14,7 @@
 
 Este projeto oferece as seguintes ideações:
 
-  saber quais horários o PUB abre e fecha.
+  Saber quais horários o PUB abre e fecha.
   
   Informações sobre todas as bebidas disponíveis.
   - Alcoólicas 
