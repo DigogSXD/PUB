@@ -27,7 +27,8 @@ Este projeto oferece as seguintes ideações:
   - Não alcoólicas
   - Drinks
   - Coquetéis 
-  
+  - Localização
+    
   Saber qual temas estão presentes no dia.
   - Musicas presentes 
   
@@ -52,6 +53,6 @@ git clone https://github.com/DigogSXD/TaskMaster.git
 | -------- | -------- | -------- |
 | 22250783 | Diogo Borges |<img src="https://github.com/digogsxd.png" height="75" width="75"> |
 | 22251863 | Jonas Honorato | <img src="https://github.com/JonasMelo21.png" height="75" width="75"> |
-| 22251863 | Eric | <img src="https://github.com/Ericoreto.png" height="75" width="75"> |
-| 22251863 | Kaio Lucas | <img src="https://github.com/kaiolucas01.png" height="75" width="75"> |
-| 22251863 | Leo | <img src="https://github.com/Leocb3.png" height="75" width="75"> |
+| 22250196 | Eric | <img src="https://github.com/Ericoreto.png" height="75" width="75"> |
+| 22250719 | Kaio Lucas | <img src="https://github.com/kaiolucas01.png" height="75" width="75"> |
+| 22250316 | Leo | <img src="https://github.com/Leocb3.png" height="75" width="75"> |
