@@ -14,19 +14,16 @@
 
 Este projeto oferece as seguintes ideações:
 
-  Saber quais horários o PUB abre e fecha.
-  
-  Informações sobre todas as bebidas disponíveis.
+  - Saber quais horários o PUB abre e fecha.
+  - Informações sobre todas as bebidas disponíveis.
   - Alcoólicas 
   - Não alcoólicas
   - Drinks
   - Coquetéis 
   - Localização
-    
-  Saber qual temas estão presentes no dia.
+  - Saber qual temas estão presentes no dia.
   - Musicas presentes 
-  
-  Saber quais petiscos tem.
+  - Saber quais petiscos tem.
   
 
 
