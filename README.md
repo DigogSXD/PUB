@@ -1,13 +1,7 @@
-
-
-
-
-
 <div align="center">
   <h2>Bem-vindo ao nosso repositório! </h2>
 </div> 
 
-<!-- Título centralizado -->
 <div align="center">
   <h2>🎯 Objetivo PUB</h2>
 </div> 
@@ -16,15 +10,12 @@ Este projeto oferece as seguintes ideações:
 
   - Saber quais horários o PUB abre e fecha.
   - Informações sobre todas as bebidas disponíveis.
-  - Alcoólicas 
-  - Não alcoólicas
-  - Drinks
-  - Coquetéis 
+  - Cardapio
+  - Musicas presentes
+  - Promoções
+  - Agenda
+  - Fotos
   - Localização
-  - Saber qual temas estão presentes no dia.
-  - Musicas presentes 
-  - Saber quais petiscos tem.
-  
 
 
 
