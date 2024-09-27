@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Estilos do container */
 .container {
     position: relative;
@@ -32,11 +38,12 @@
 /* Estilos para o texto sobreposto */
 .mensagem-sobreposta {
     position: absolute;
+    display: flex;
     top: 120px; /* Ajuste a posição vertical conforme necessário */
-    left: 1053px;
+    left: 793px;
     transform: translateX(-50%);
     padding: 10px 20px;
-    font-size: 160px;
+    font-size: 135px;
     font-family: 'Inter', sans-serif; /* Define a fonte "Inter" */
     font-style: italic; /* Aplica o estilo itálico */
     color: #8f00c1; /* Define a cor para #8f00c1 */
@@ -47,17 +54,17 @@
 /* Estilos para o texto sobreposto */
 .mensagem-sobrepostadegra {
     position: absolute;
+    display: flex;
     top: 110px; /* Ajuste a posição vertical conforme necessário */
-    left: 1050px;
+    left: 790px;
     transform: translateX(-50%);
     padding: 10px 20px;
-    font-size: 160px;
+    font-size: 135px;
     font-family: 'Inter', sans-serif; /* Define a fonte "Inter" */
     font-style: italic; /* Aplica o estilo itálico */
     color: rgb(255, 255, 255);
     z-index: 2; /* Garante que o texto fique acima da imagem */
 }
-
 
 /* Estilos para o menu */
 .menu-container {
@@ -77,22 +84,23 @@
 .menu ul {
     list-style-type: none;
     display: flex;
+    justify-content: center; /* Centraliza horizontalmente os itens da lista */
 }
 
 .menu li {
     text-decoration: none;
     color: #fff;
     background-color: #F6D200;
-    padding: 20px 40px; /* Aumenta o espaçamento interno (padding) */
+    padding: 20px;
     margin: 0px 20px;
-    border-radius: 35px; /* Deixa os botões com bordas mais arredondadas */
-    display: inline-block;
-    width: 300px; /* Aumenta a largura do botão */
-    height: 80px; /* Aumenta a altura do botão */
-    text-align: center;
-    line-height: 40px;
+    border-radius: 35px;
+    display: flex; /* Flexbox para centralização */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 300px; /* Ajuste a largura conforme necessário */
+    height: 80px; /* Ajuste a altura conforme necessário */
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 110px; /* Aumenta o tamanho da fonte */
+    font-size: 40px; /* Ajuste o tamanho da fonte conforme necessário */
 }
 
 .menu li:hover {
@@ -104,7 +112,7 @@
 .menu a {
     text-decoration: none;
     color: #000;
-    font-size: 60px; /* Ajusta o tamanho da fonte do texto dentro do botão */
+    font-size: 30px; /* Ajusta o tamanho da fonte do texto dentro do botão */
 }
 
 .menu a:hover {
