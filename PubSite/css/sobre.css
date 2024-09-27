@@ -85,7 +85,7 @@
     background-color: #F6D200;
     padding: 20px 40px; /* Aumenta o espaçamento interno (padding) */
     margin: 0px 20px;
-    border-radius: 10px; /* Deixa os botões com bordas mais arredondadas */
+    border-radius: 35px; /* Deixa os botões com bordas mais arredondadas */
     display: inline-block;
     width: 300px; /* Aumenta a largura do botão */
     height: 80px; /* Aumenta a altura do botão */
@@ -121,7 +121,7 @@
     padding: 20px; /* Espaçamento interno */
     margin: 20px auto; /* Margem para centralizar o quadrado horizontalmente */
     width: 80%; /* Largura do quadrado */
-    border-radius: 10px; /* Bordas arredondadas */
+    border-radius: 30px; /* Bordas arredondadas */
     font-family: Arial, Helvetica, sans-serif; /* Fonte do texto */
     font-size: 50px; /* Tamanho da fonte */
     font-weight: bold;
