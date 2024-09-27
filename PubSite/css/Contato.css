@@ -85,7 +85,7 @@
     background-color: #F6D200;
     padding: 20px 40px; /* Aumenta o espaçamento interno (padding) */
     margin: 0px 20px;
-    border-radius: 10px; /* Deixa os botões com bordas mais arredondadas */
+    border-radius: 35px; /* Deixa os botões com bordas mais arredondadas */
     display: inline-block;
     width: 300px; /* Aumenta a largura do botão */
     height: 80px; /* Aumenta a altura do botão */
