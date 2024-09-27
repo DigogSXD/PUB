@@ -1,66 +1,178 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento</title>
-    <link rel="stylesheet" href="css/Contato.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,400&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-        <div class="quadrado_roxo"></div>
-        <img src="image/latest.png" alt="Imagem sobreposta" class="imagem-sobreposta">
-        <div class="mensagem-sobreposta">Contato</div> <!-- Texto sobreposto aqui -->
-        <div class="mensagem-sobrepostadegra">Contato</div> <!-- Texto sobreposto aqui -->
-        <div class="quadrado_amarelo"></div>
-    </div>
-    <nav class="menu-container">
-        <ul class="menu">
-            <li><a href="pub.html">Inicio</a></li>
-            <li><a href="Agenda.html">Eventos</a></li>
-            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-            
-        </ul>
-    </nav>
+/* Estilos do container */
+.container {
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
 
-    <div class="contact-container">
-        <h1>Contact Details</h1>
-    
-        <div class="yellow-box">
-            <div class="contact-section">
-                <h2>Reservas Pessoa Física</h2>
-                <p>(99) 9 9999-9999</p>
-                <p>WarioPUB@gmail.com</p>
-                <div class="social-media">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" id="logoIG" alt="Logo Instagram">
-                    <p>@wariopubreservas</p>
-                </div>
-                <div class="social-media">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" id="logofacebook" alt="Logo Facebook">
-                    <p>@wariopubreservas</p>
-                </div>
-            </div>
-        </div>
-    
-        <div class="yellow-box">
-            <div class="contact-section">        
-                <h2>Eventos - Empresas</h2>
-                <p>(99) 9 9999-9999</p>
-                <p>WarioPUB@gmail.com</p>
-                <div class="social-media">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" id="logoIG" alt="Logo Instagram">
-                    <p>@wariopubreservas</p>
-                </div>
-                <div class="social-media">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" id="logofacebook" alt="Logo Facebook">
-                    <p>@wariopubreservas</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-</body>
-</html>
+/* Estilos para os quadrados */
+.quadrado_roxo {
+    width: 100vw;
+    height: 90px;
+    background-color: purple;
+}
+
+.quadrado_amarelo {
+    width: 100vw;
+    height: 300px;
+    background-color: #F6D200;
+}
+
+/* Estilos para a imagem sobreposta */
+.imagem-sobreposta {
+    position: absolute;
+    top: 1px;
+    left: 290px;
+    transform: translateX(-50%);
+    width: 490px;
+    height: auto;
+    z-index: 1;
+}
+
+/* Estilos para o texto sobreposto */
+.mensagem-sobreposta {
+    position: absolute;
+    top: 120px; /* Ajuste a posição vertical conforme necessário */
+    left: 1053px;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 160px;
+    font-family: 'Inter', sans-serif; /* Define a fonte "Inter" */
+    font-style: italic; /* Aplica o estilo itálico */
+    color: #8f00c1; /* Define a cor para #8f00c1 */
+    z-index: 2; /* Garante que o texto fique acima da imagem */
+}
+
+
+/* Estilos para o texto sobreposto */
+.mensagem-sobrepostadegra {
+    position: absolute;
+    top: 110px; /* Ajuste a posição vertical conforme necessário */
+    left: 1050px;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 160px;
+    font-family: 'Inter', sans-serif; /* Define a fonte "Inter" */
+    font-style: italic; /* Aplica o estilo itálico */
+    color: rgb(255, 255, 255);
+    z-index: 2; /* Garante que o texto fique acima da imagem */
+}
+
+
+/* Estilos para o menu */
+.menu-container {
+    background-color: purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100vw;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    text-decoration: none;
+    color: #fff;
+    background-color: #F6D200;
+    padding: 20px 40px; /* Aumenta o espaçamento interno (padding) */
+    margin: 0px 20px;
+    border-radius: 35px; /* Deixa os botões com bordas mais arredondadas */
+    display: inline-block;
+    width: 300px; /* Aumenta a largura do botão */
+    height: 80px; /* Aumenta a altura do botão */
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110px; /* Aumenta o tamanho da fonte */
+}
+
+.menu li:hover {
+    background-color: #F6D200;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 60px; /* Ajusta o tamanho da fonte do texto dentro do botão */
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*Parte Contato*/
+
+/* Estilos para o container principal */
+.contact-container {
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre as seções */
+    padding: 20px;
+    background-color: #f7f7f7; /* Fundo claro */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    max-width: 12000px;
+    margin: 0 auto;
+    flex-wrap: wrap;    
+}
+
+/* Centralizando o título principal */
+.contact-container h1 {
+    width: 100%; /* Ocupa toda a largura para centralizar */
+    text-align: center; /* Centraliza o texto */
+    color: #8f00c1; /* Cor do título */
+    background-color: #F6D200; /* Fundo claro */
+    margin-bottom: 20px;
+    font-size: 32px; /* Ajuste o tamanho da fonte (diminui o tamanho) */
+    padding: 10px; /* Adiciona um pouco de espaço interno */
+}
+
+
+/* Estilos para cada seção de contato */
+.contact-section {
+    background-color: #F6D200;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+/* Estilos para os parágrafos */
+.contact-section p {
+    font-size: 36px;
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Estilos para a mídia social */
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-media img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.social-media p {
+    font-size: 26px;
+    color: #8f00c1;
+}
