@@ -40,10 +40,10 @@
 .mensagem-sobreposta {
     position: absolute;
     top: 120px; /* Ajuste a posição vertical conforme necessário */
-    left: 1053px;
+    left: 803px;
     transform: translateX(-50%);
     padding: 10px 20px;
-    font-size: 160px;
+    font-size: 135px;
     font-family: 'Inter', sans-serif; /* Define a fonte "Inter" */
     font-style: italic; /* Aplica o estilo itálico */
     color: #8f00c1; /* Define a cor para #8f00c1 */
@@ -55,10 +55,10 @@
 .mensagem-sobrepostadegra {
     position: absolute;
     top: 110px; /* Ajuste a posição vertical conforme necessário */
-    left: 1050px;
+    left: 800px;
     transform: translateX(-50%);
     padding: 10px 20px;
-    font-size: 160px;
+    font-size: 135px;
     font-family: 'Inter', sans-serif; /* Define a fonte "Inter" */
     font-style: italic; /* Aplica o estilo itálico */
     color: rgb(255, 255, 255);
