@@ -128,9 +128,7 @@
     display: flex;
     justify-content: space-around; /* Espaçamento entre as seções */
     padding: 20px;
-    background-color: #f7f7f7; /* Fundo claro */
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
     max-width: 12000px;
     margin: 0 auto;
     flex-wrap: wrap;    
