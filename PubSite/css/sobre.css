@@ -123,7 +123,8 @@
     width: 80%; /* Largura do quadrado */
     border-radius: 10px; /* Bordas arredondadas */
     font-family: Arial, Helvetica, sans-serif; /* Fonte do texto */
-    font-size: 18px; /* Tamanho da fonte */
+    font-size: 50px; /* Tamanho da fonte */
+    font-weight: bold;
     line-height: 1.6; /* Espaçamento entre as linhas */
     text-align: justify; /* Alinha o texto uniformemente */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra ao quadrado */
