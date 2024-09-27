@@ -110,3 +110,69 @@
 .menu a:hover {
     text-decoration: underline;
 }
+
+
+
+/*Parte Contato*/
+
+/* Estilos para o container principal */
+.contact-container {
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre as seções */
+    padding: 20px;
+    background-color: #f7f7f7; /* Fundo claro */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    max-width: 12000px;
+    margin: 0 auto;
+    flex-wrap: wrap;    
+}
+
+/* Centralizando o título principal */
+.contact-container h1 {
+    width: 100%; /* Ocupa toda a largura para centralizar */
+    text-align: center; /* Centraliza o texto */
+    color: #8f00c1; /* Cor do título */
+    background-color: #F6D200; /* Fundo claro */
+    margin-bottom: 20px;
+    font-size: 32px; /* Ajuste o tamanho da fonte (diminui o tamanho) */
+    padding: 10px; /* Adiciona um pouco de espaço interno */
+}
+
+
+/* Estilos para cada seção de contato */
+.contact-section {
+    background-color: #F6D200;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+/* Estilos para os parágrafos */
+.contact-section p {
+    font-size: 24px;
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Estilos para a mídia social */
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-media img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.social-media p {
+    font-size: 16px;
+    color: #8f00c1;
+}
