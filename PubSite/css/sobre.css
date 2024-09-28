@@ -36,44 +36,59 @@
     z-index: 1;
 }
 
- /* Estilos para a imagem no canto inferior esquerdo  */
+/* Estilos para a imagem   */
 .imagem-sobreposta2 {
-    position: absolute;  /*Mantém a imagem sobreposta  */
-    bottom: 1;          /* Coloca a imagem na parte inferior do contêiner*/ 
-    left: 0;            /*Posiciona a imagem no lado esquerdo */
-    width: 490px;       /* Define a largura da imagem */
-    height: auto;       /* Mantém a proporção da altura */
-    z-index: 1;         /*Garante que a imagem fique acima de outros elementos */
+    position: absolute;
+    /*Mantém a imagem sobreposta  */
+    bottom: 1;
+    /* Coloca a imagem na parte inferior do contêiner*/
+    left: 0;
+    /*Posiciona a imagem no lado esquerdo */
+    width: 490px;
+    /* Define a largura da imagem */
+    height: auto;
+    /* Mantém a proporção da altura */
+    z-index: 1;
+    /*Garante que a imagem fique acima de outros elementos */
 
 }
 
 /* Estilos para o texto sobreposto */
 .mensagem-sobreposta {
     position: absolute;
-    top: 120px; /* Ajuste a posição vertical conforme necessário */
+    top: 120px;
+    /* Ajuste a posição vertical conforme necessário */
     left: 790px;
     transform: translateX(-50%);
     padding: 10px 20px;
     font-size: 135px;
-    font-family: 'Inter', sans-serif; /* Define a fonte "Inter" */
-    font-style: italic; /* Aplica o estilo itálico */
-    color: #8f00c1; /* Define a cor para #8f00c1 */
-    z-index: 2; /* Garante que o texto fique acima da imagem */
+    font-family: 'Inter', sans-serif;
+    /* Define a fonte "Inter" */
+    font-style: italic;
+    /* Aplica o estilo itálico */
+    color: #8f00c1;
+    /* Define a cor para #8f00c1 */
+    z-index: 2;
+    /* Garante que o texto fique acima da imagem */
 }
 
 
 /* Estilos para o texto sobreposto */
 .mensagem-sobrepostadegra {
     position: absolute;
-    top: 110px; /* Ajuste a posição vertical conforme necessário */
+    top: 110px;
+    /* Ajuste a posição vertical conforme necessário */
     left: 793px;
     transform: translateX(-50%);
     padding: 10px 20px;
     font-size: 135px;
-    font-family: 'Inter', sans-serif; /* Define a fonte "Inter" */
-    font-style: italic; /* Aplica o estilo itálico */
+    font-family: 'Inter', sans-serif;
+    /* Define a fonte "Inter" */
+    font-style: italic;
+    /* Aplica o estilo itálico */
     color: rgb(255, 255, 255);
-    z-index: 2; /* Garante que o texto fique acima da imagem */
+    z-index: 2;
+    /* Garante que o texto fique acima da imagem */
 }
 
 
@@ -95,7 +110,8 @@
 .menu ul {
     list-style-type: none;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente os itens da lista */
+    justify-content: center;
+    /* Centraliza horizontalmente os itens da lista */
 }
 
 .menu li {
@@ -105,13 +121,19 @@
     padding: 20px;
     margin: 0px 20px;
     border-radius: 35px;
-    display: flex; /* Flexbox para centralização */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    width: 300px; /* Ajuste a largura conforme necessário */
-    height: 80px; /* Ajuste a altura conforme necessário */
+    display: flex;
+    /* Flexbox para centralização */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    width: 300px;
+    /* Ajuste a largura conforme necessário */
+    height: 80px;
+    /* Ajuste a altura conforme necessário */
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-size: 40px;
+    /* Ajuste o tamanho da fonte conforme necessário */
 }
 
 .menu li:hover {
@@ -123,7 +145,8 @@
 .menu a {
     text-decoration: none;
     color: #000;
-    font-size: 30px; /* Ajusta o tamanho da fonte do texto dentro do botão */
+    font-size: 30px;
+    /* Ajusta o tamanho da fonte do texto dentro do botão */
 }
 
 .menu a:hover {
@@ -137,15 +160,73 @@
 
 .quadrado-texto-amarelo {
     background-color: #F6D200;
-    color: black; /* Cor do texto */
-    padding: 20px; /* Espaçamento interno */
-    margin: 20px auto; /* Margem para centralizar o quadrado horizontalmente */
-    width: 80%; /* Largura do quadrado */
-    border-radius: 30px; /* Bordas arredondadas */
-    font-family: Arial, Helvetica, sans-serif; /* Fonte do texto */
-    font-size: 50px; /* Tamanho da fonte */
+    color: black;
+    /* Cor do texto */
+    padding: 20px;
+    /* Espaçamento interno */
+    margin: 20px auto;
+    /* Margem para centralizar o quadrado horizontalmente */
+    width: 80%;
+    /* Largura do quadrado */
+    border-radius: 30px;
+    /* Bordas arredondadas */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Fonte do texto */
+    font-size: 50px;
+    /* Tamanho da fonte */
     font-weight: bold;
-    line-height: 1.6; /* Espaçamento entre as linhas */
-    text-align: justify; /* Alinha o texto uniformemente */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra ao quadrado */
+    line-height: 1.6;
+    /* Espaçamento entre as linhas */
+    text-align: justify;
+    /* Alinha o texto uniformemente */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    /* Adiciona uma leve sombra ao quadrado */
+}
+
+h1 {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    width: 900px; /* Defina a largura do contêiner da bebida */
+    height: auto; /* Permite que a altura seja ajustada automaticamente */
+    margin: 20px auto; /* Centraliza o contêiner horizontalmente e adiciona margem ao redor */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #F6D200; /* Cor de fundo suave */
+    border-radius: 35px; /* Cantos arredondados */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+    border: 2px solid purple; /* Adiciona uma borda preta ao redor */
+}
+
+
+.interior {
+    list-style-type: none;
+    /* Remove os marcadores da lista */
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    /* Distribui as imagens igualmente */
+    align-items: center;
+    /* Centraliza as imagens verticalmente */
+    flex-wrap: wrap;
+    /* Permite quebrar linha em telas menores */
+}
+
+.interior li {
+    margin: 20px;
+    /* Espaçamento entre as imagens */
+    background-color: #F6D200;
+    /* Fundo amarelo */
+    border-radius: 35px;
+    /* Aplica bordas arredondadas nas imagens */
+    position: relative;
+    /* Necessário para o texto sobreposto */
+    padding: 10px;
+    /* Espaçamento interno para as imagens */
+}
+
+.interior img {
+    width: 1000px;
+    /* Define a largura das imagens */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    border-radius: 10px;
+    /* Bordas arredondadas nas imagens */
 }
