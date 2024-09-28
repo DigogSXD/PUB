@@ -38,16 +38,20 @@
 /* Estilos para o texto sobreposto */
 .mensagem-sobreposta {
     position: absolute;
-    display: flex;
-    top: 120px; /* Ajuste a posição vertical conforme necessário */
-    left: 793px;
+    top: 120px;
+    /* Ajuste a posição vertical conforme necessário */
+    left: 790px;
     transform: translateX(-50%);
     padding: 10px 20px;
     font-size: 135px;
-    font-family: 'Inter', sans-serif; /* Define a fonte "Inter" */
-    font-style: italic; /* Aplica o estilo itálico */
-    color: #8f00c1; /* Define a cor para #8f00c1 */
-    z-index: 2; /* Garante que o texto fique acima da imagem */
+    font-family: 'Inter', sans-serif;
+    /* Define a fonte "Inter" */
+    font-style: italic;
+    /* Aplica o estilo itálico */
+    color: #8f00c1;
+    /* Define a cor para #8f00c1 */
+    z-index: 2;
+    /* Garante que o texto fique acima da imagem */
 }
 
 
@@ -62,9 +66,17 @@
     font-size: 135px;
     font-family: 'Inter', sans-serif; /* Define a fonte "Inter" */
     font-style: italic; /* Aplica o estilo itálico */
-    color: rgb(255, 255, 255);
     z-index: 2; /* Garante que o texto fique acima da imagem */
+    /* Degrade nas letras */
+    background: linear-gradient(to bottom, #ffffff 0%, #e0e0e0 50%, #808080 100%);
+    background-clip: text;
+    -webkit-background-clip: text;   /* Manter so nas letras */
+    -moz-background-clip: text;     /* Manter so nas letras */
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-shadow: none;
 }
+
 
 /* Estilos para o menu */
 .menu-container {
