@@ -229,5 +229,17 @@ footer {
     padding: 20px;
     background-color: #F6D200;
     font-size: 16px;
-    color: #333;
+    color: rgb(88, 2, 134);
+
+}
+.proibido {
+    position: relative; /* Define o container como relativo */
+    padding: 10px 0;
+}
+
+.left-icon {
+    position: absolute;
+    bottom: -40px; /* Fixa na parte inferior */
+    left: 10px; /* Fixa na lateral esquerda */
+    width: 75px; /* Tamanho do ícone (ajustável) */
 }
