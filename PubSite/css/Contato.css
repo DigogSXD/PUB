@@ -5,10 +5,11 @@
 }
 
 
+
 /* Estilos do container */
 .container {
     position: relative;
-    width: 50px;
+    width: 100vw;
     height: auto;
 }
 
@@ -36,50 +37,48 @@
     z-index: 1;
 }
 
+/* Estilos para a imagem 2 */
+.imagem-sobreposta2 {
+    display: absolute;
+    margin: 20px auto; 
+    max-width: 100%; 
+    height: auto;
+    z-index: 1;
+}
+
 /* Estilos para o texto sobreposto */
 .mensagem-sobreposta {
     position: absolute;
     top: 120px;
-    /* Ajuste a posição vertical conforme necessário */
-    left: 790px;
+    left: 50%;
     transform: translateX(-50%);
     padding: 10px 20px;
     font-size: 135px;
     font-family: 'Inter', sans-serif;
-    /* Define a fonte "Inter" */
     font-style: italic;
-    /* Aplica o estilo itálico */
     color: #8f00c1;
-    /* Define a cor para #8f00c1 */
     z-index: 2;
-    /* Garante que o texto fique acima da imagem */
 }
 
-
-/* Estilos para o texto sobreposto */
+/* Estilos para o texto com degrade */
 .mensagem-sobrepostadegra {
     position: absolute;
-    display: flex;
-    top: 110px; /* Ajuste a posição vertical conforme necessário */
-    left: 790px;
+    top: 110px;
+    left: 50%;
     transform: translateX(-50%);
     padding: 10px 20px;
     font-size: 135px;
-    font-family: 'Inter', sans-serif; /* Define a fonte "Inter" */
-    font-style: italic; /* Aplica o estilo itálico */
-    z-index: 2; /* Garante que o texto fique acima da imagem */
-    /* Degrade nas letras */
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    z-index: 2;
     background: linear-gradient(to bottom, #ffffff 0%, #e0e0e0 50%, #808080 100%);
     background-clip: text;
-    -webkit-background-clip: text;   /* Manter so nas letras */
-    -moz-background-clip: text;     /* Manter so nas letras */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     text-shadow: none;
 }
-
-
-
 
 /* Estilos para o menu */
 .menu-container {
@@ -99,7 +98,7 @@
 .menu ul {
     list-style-type: none;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente os itens da lista */
+    justify-content: center;
 }
 
 .menu li {
@@ -109,32 +108,29 @@
     padding: 20px;
     margin: 0px 20px;
     border-radius: 35px;
-    display: flex; /* Flexbox para centralização */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    width: 300px; /* Ajuste a largura conforme necessário */
-    height: 80px; /* Ajuste a altura conforme necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 80px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-size: 40px;
 }
 
 .menu li:hover {
     background-color: #F6D200;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
-    text-decoration: none;
 }
 
 .menu a {
     text-decoration: none;
     color: #000;
-    font-size: 30px; /* Ajusta o tamanho da fonte do texto dentro do botão */
+    font-size: 30px;
 }
 
 .menu a:hover {
     text-decoration: underline;
 }
-
-
 
 /*Parte Contato*/
 
@@ -197,4 +193,16 @@
 .social-media p {
     font-size: 26px;
     color: #8f00c1;
+}
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #F6D200;
+    color: #000000;
+    margin-top: 20px;
+    border-top: 4px solid purple;
+    width: 100%;
+    position: relative;
+    z-index: 1;
 }

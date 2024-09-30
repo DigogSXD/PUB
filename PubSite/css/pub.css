@@ -35,15 +35,13 @@
     z-index: 1;
 }
 
-/* Estilos para a imagem 2  */
+/* Estilos para a imagem 2 */
 .imagem-sobreposta2 {
-    position: absolute; 
-    bottom: 1;         
-    left: 0;          
-    width: 490px;      
-    height: auto;      
-    z-index: 1;         
-
+    display: absolute;
+    margin: 20px auto; 
+    max-width: 100%; 
+    height: auto;
+    z-index: 1;
 }
 
 
@@ -88,7 +86,6 @@
     -moz-text-fill-color: transparent;
     text-shadow: none;
 }
-
 
 
 /* Estilos para o menu */
@@ -143,64 +140,72 @@
 .menu a:hover {
     text-decoration: underline;
 }
-
-
-
-/* Parte abaixo8 */
-
+/* Estilos para o título h1 */
 h1 {
-    text-align: center; /* Centraliza o texto horizontalmente */
-    width: 300px; /* Defina a largura do contêiner da bebida */
-    height: auto; /* Permite que a altura seja ajustada automaticamente */
-    margin: 20px auto; /* Centraliza o contêiner horizontalmente e adiciona margem ao redor */
-    padding: 10px; /* Espaçamento interno */
-    background-color: #F6D200; /* Cor de fundo suave */
-    border-radius: 35px; /* Cantos arredondados */
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
-    border: 2px solid purple; /* Adiciona uma borda preta ao redor */
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #F6D200;
+    border-radius: 35px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid purple;
 }
 
+/* Estilos para as bebidas */
 .bebidas-container {
     text-align: center;
     padding: 20px;
-    background-color: #fff; /* Fundo branco */
+    background-color: #fff;
 }
 
 .bebidas {
-    list-style-type: none; /* Remove os marcadores da lista */
+    list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: space-around; /* Distribui as imagens igualmente */
-    align-items: center; /* Centraliza as imagens verticalmente */
-    flex-wrap: wrap; /* Permite quebrar linha em telas menores */
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .bebidas li {
-    margin: 20px; /* Espaçamento entre as imagens */
-    background-color: #F6D200; /* Fundo amarelo */
-    border-radius: 35px; /* Aplica bordas arredondadas nas imagens */
-    position: relative; /* Necessário para o texto sobreposto */
-    padding: 10px; /* Espaçamento interno para as imagens */
+    margin: 20px;
+    background-color: #F6D200;
+    border-radius: 35px;
+    position: relative;
+    padding: 10px;
 }
 
 .bebidas img {
-    width: 300px; /* Define a largura das imagens */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 10px; /* Bordas arredondadas nas imagens */
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
 }
 
 .texto-sobreposto {
     position: absolute;
-    bottom: 370px; /* Define a distância do texto em relação à parte inferior da imagem */
+    bottom: 10px;
     left: 50%;
-    transform: translateX(-50%); /* Centraliza horizontalmente o texto */
-    color: white; /* Cor do texto branco */
-    font-size: 26px; /* Tamanho do texto */
+    transform: translateX(-50%);
+    color: white;
+    font-size: 26px;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto para melhorar a visibilidade */
-    background-color: purple; /* Fundo roxo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: purple;
     padding: 5px 10px;
-    border-radius: 5px; /* Bordas arredondadas no fundo do texto */
-    text-align: center; /* Centraliza o texto dentro do bloco */
+    border-radius: 5px;
+    text-align: center;
 }
 
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #F6D200;
+    color: #000000;
+    margin-top: 20px;
+    border-top: 4px solid purple;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}

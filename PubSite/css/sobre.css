@@ -37,23 +37,14 @@
     z-index: 1;
 }
 
-/* Estilos para a imagem   */
+/* Estilos para a imagem 2 */
 .imagem-sobreposta2 {
-    position: absolute;
-    /*Mantém a imagem sobreposta  */
-    bottom: 1;
-    /* Coloca a imagem na parte inferior do contêiner*/
-    left: 0;
-    /*Posiciona a imagem no lado esquerdo */
-    width: 490px;
-    /* Define a largura da imagem */
+    display: absolute;
+    margin: 20px auto; 
+    max-width: 100%; 
     height: auto;
-    /* Mantém a proporção da altura */
     z-index: 1;
-    /*Garante que a imagem fique acima de outros elementos */
-
 }
-
 /* Estilos para o texto sobreposto */
 .mensagem-sobreposta {
     position: absolute;
@@ -235,4 +226,17 @@ h1 {
     /* Mantém a proporção da imagem */
     border-radius: 10px;
     /* Bordas arredondadas nas imagens */
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #F6D200;
+    color: #000000;
+    margin-top: 20px;
+    border-top: 4px solid purple;
+    width: 100%;
+    position: relative;
+    z-index: 1;
 }

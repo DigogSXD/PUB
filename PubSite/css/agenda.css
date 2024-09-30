@@ -35,6 +35,16 @@
     z-index: 1;
 }
 
+/* Estilos para a imagem 2 */
+.imagem-sobreposta2 {
+    display: absolute;
+    margin: 20px auto; 
+    max-width: 100%; 
+    height: auto;
+    z-index: 1;
+}
+
+
 /* Estilos para o texto sobreposto */
 .mensagem-sobreposta {
     position: absolute;
@@ -129,4 +139,16 @@
 
 .menu a:hover {
     text-decoration: underline;
+}
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #F6D200;
+    color: #000000;
+    margin-top: 20px;
+    border-top: 4px solid purple;
+    width: 100%;
+    position: relative;
+    z-index: 1;
 }
