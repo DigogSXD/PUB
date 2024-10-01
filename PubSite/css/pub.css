@@ -142,14 +142,15 @@
 }
 /* Estilos para o título h1 */
 h1 {
-    text-align: center;
-    width: 300px;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: #F6D200;
-    border-radius: 35px;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-    border: 2px solid purple;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    width: 900px; /* Defina a largura do contêiner da bebida */
+    height: auto; /* Permite que a altura seja ajustada automaticamente */
+    margin: 20px auto; /* Centraliza o contêiner horizontalmente e adiciona margem ao redor */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #F6D200; /* Cor de fundo suave */
+    border-radius: 35px; /* Cantos arredondados */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+    border: 2px solid purple; /* Adiciona uma borda preta ao redor */
 }
 
 /* Estilos para as bebidas */
@@ -196,6 +197,40 @@ h1 {
     border-radius: 5px;
     text-align: center;
 }
+.container-aniversario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.aniversario {
+    width: 45%; /* Largura da imagem ajustável */
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.texto {
+    width: 45%; /* Largura do texto ajustável */
+}
+
+
+
+.texto p {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+}
+
+hr {
+    height: 8px;
+    background-color: purple;
+    border-color: purple;
+}
+
 
 /* Estilos para o rodapé */
 footer {
