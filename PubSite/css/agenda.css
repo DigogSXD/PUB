@@ -35,11 +35,11 @@
     z-index: 1;
 }
 
-/* Estilos para a imagem inferior */
+/* Estilos para a imagem 2 */
 .imagem-sobreposta2 {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
+    display: absolute;
+    margin: 20px auto; 
+    max-width: 100%; 
     height: auto;
     z-index: 1;
 }
@@ -130,8 +130,10 @@
     text-decoration: underline;
 }
 
+/* Titulo dos eventos  */
 h1 {
     text-align: center;
+    font-size: 1.5rem;
     width: 900px;
     height: auto;
     margin: 20px auto;
@@ -139,13 +141,13 @@ h1 {
     background-color: #F6D200;
     border-radius: 35px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-    border: 2px solid purple;
+    border: 4px solid purple;
 }
 
 /* Seção de Horário de Funcionamento */
 .horario-container {
-    background-color: #F6D200;
-    padding: 20px;
+    background-color: white;
+    padding: 40px;
     text-align: center;
 }
 
@@ -157,8 +159,8 @@ h1 {
 
 /* Seção de Eventos */
 .eventos-container {
-    background-color: #fff;
-    padding: 20px;
+    background-color: #F6D200;
+    padding: 40px;
     text-align: center;
 }
 
@@ -174,14 +176,16 @@ h1 {
 
 /* Seção de Reservas */
 .reservas-container {
-    background-color: #F6D200;
-    padding: 20px;
+    background-color: #fff;
+    padding: 40px;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .reservas-container form {
     display: flex;
     flex-direction: column;
+    font-size: 1.5rem;
     align-items: center;
     gap: 10px;
 }
