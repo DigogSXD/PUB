@@ -23,7 +23,7 @@ Este projeto oferece as seguintes ideações:
 ### 1. 📍 Clonar o Repositório
 Vamos começar clonando um repositório do GitHub em um diretório local através do terminal, conforme indicado a seguir:
 ```
-git clone https://github.com/DigogSXD/TaskMaster.git
+git clone https://github.com/DigogSXD/PUB.git
 ```
 
 
